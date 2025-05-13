@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Layout</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #f4f4f4;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        header button {
+            padding: 5px 10px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+        .tree-navigator {
+            width: 20%;
+            background-color: #eaeaea;
+            padding: 10px;
+            box-sizing: border-box;
+            border-right: 1px solid #ccc;
+        }
+        .content {
+            width: 80%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Branding</h1>
+        <button>Logout</button>
+    </header>
+    <hr>
+    <div class="container">
+        <div class="tree-navigator">
+            <h3>Tree Navigator</h3>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </div>
+        <div class="content">
+            <!-- Blank page for additional content -->
+        </div>
+    </div>
+</body>
+</html>
