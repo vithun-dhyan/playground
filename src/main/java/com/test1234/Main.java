@@ -1,11 +1,17 @@
 package com.test1234;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
+@SpringBootApplication
+@EnableScheduling
 public class Main
 {
-    //Print hello world
-    
     public static void main(String[] args)
     {
-        System.out.println("Hello, World!");
+        SpringApplication.run(Main.class, args);
     }
+    
+
 }
