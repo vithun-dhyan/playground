@@ -14,7 +14,7 @@
 	</module>
     <module name="Translation"/>
 	<module name="FileLength">
-		<property name="max" value="5000"/>
+		<property name="max" value="5000"/> 123
 	</module>
     <module name="LineLength">
 
