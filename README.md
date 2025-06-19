@@ -3,7 +3,7 @@
  This is my playground x
  I am trying to play here
  
- <module name="Checker">
+ <module name="Checke1r">
 	<!-- <property name="fileExtensions" value="java, properties, xml, xsd, jsp, js, sql"/>
     <module name="BeforeExecutionExclusionFileFilter">
         <property name="fileNamePattern" value="module\-info\.java$"/>
