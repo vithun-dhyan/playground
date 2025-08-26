@@ -21,6 +21,7 @@ public class Main
 
     }
 
+    
     private static Boolean isTrue(String splExpression, Map<String, Object> context)
     {
         ExpressionParser parser = new SpelExpressionParser();
